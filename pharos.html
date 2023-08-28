@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VIT Image Matches</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Pharos Image Matches</h1>
+    <h3><a href="index.html">Go to VIT image matches</a></h3>
+    <table class="image-table">
+      <thead>
+        <tr>
+          <th>Image 1</th>
+          <th>Image 2</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Rows will be populated here -->
+      </tbody>
+    </table>
+
+    
+    <div class="pagination" id="paginationDiv">
+        <!-- Pagination links will be populated here -->
+        <div id="pageInfo"></div>
+        <input type="number" id="gotoPage" placeholder="Go to page..." />
+        <button id="goButton">Go</button>
+      </div>
+      
+  </div>
+
+  <script src="script2.js"></script>
+
+</body>
+</html>
